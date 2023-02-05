@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ASCII_art
 {
-    class BitmapToASCIIConverter
+    internal class BitmapToASCIIConverter
     {
         private readonly char[] _asiiTable = { '.', ',', ':', '+', '*', '?', '%', '#', '@' };
 

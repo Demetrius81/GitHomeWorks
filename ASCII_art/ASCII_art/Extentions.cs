@@ -9,6 +9,10 @@ namespace ASCII_art
 {
     public static class Extentions
     {
+        /// <summary>
+        /// Метод расширения для пересчета пикселей
+        /// </summary>
+        /// <param name="bitmap"></param>
         public static void ToGrayScale(this Bitmap bitmap)
         {
             for (int y = 0; y < bitmap.Height; y++)

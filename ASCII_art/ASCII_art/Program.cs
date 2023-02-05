@@ -27,13 +27,8 @@ namespace ASCII_art
             return bitmap;
         }
 
-        protected Program()
-        {
-
-        }
-
         [STAThread]
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
